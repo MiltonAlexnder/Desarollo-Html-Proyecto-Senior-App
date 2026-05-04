@@ -1,0 +1,35 @@
+html{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: bold;
+    line-height: 1.2;
+    }
+
+p   { text-align: justify;
+    max-width: 600px;
+    margin: 0 auto;
+    }
+
+h1  {text-decoration: underline;
+    text-align: center;
+}
+
+h2  {text-decoration: underline;
+    text-align: center;
+}
+
+h3  {text-decoration: Underline;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+ul {max-width: 600px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+a { display: block;
+    text-align: center;}
+
+
+
+
