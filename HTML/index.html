@@ -1,116 +1,153 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Desarrollo Tp IngSist</title>
-
-        <link rel="stylesheet" href="/CSS/styles.css">
-
-    </head>
+<!-- Declaración de HTML5 -->
+<html lang="es">
+<!-- Idioma de la página en español -->
+<head>
+    <!-- Sección de metadatos de la página -->
+    <meta charset="UTF-8">
+    <!-- Codificación UTF-8 para caracteres especiales (tildes, ñ, etc.) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Meta viewport: hace la página responsiva en móviles y tablets -->
+    <title>Desarrollo Tp IngSist</title>
+    <!-- Título que aparece en la pestaña del navegador -->
+    <link rel="stylesheet" href="../CSS/styles.css">
+    <!-- Vinculación del archivo CSS (estilos visuales) -->
+</head>
 
     <body>
+    <!-- INICIO DEL CONTENIDO VISIBLE DE LA PÁGINA -->
 
-        <h1><div>TRABAJO PRÁCTICO – INGENIERÍA DE SOFTWARE</div></h1>
+        <!-- SECCIÓN 1: TÍTULO Y DESCRIPCIÓN INICIAL -->
+        <h1>TRABAJO PRÁCTICO – INGENIERÍA DE SOFTWARE</h1>
+        <!-- Título principal (h1 = nivel de importancia 1) -->
         
         <h2>Proyecto: <strong>Senior App</strong></h2>
+        <!-- Subtítulo con énfasis en "Senior App" (strong = negrita) -->
 
         <p>En la actualidad, el avance de la tecnología permite desarrollar soluciones que mejoran la <strong>calidad de vida</strong> de las personas. En este contexto, el presente proyecto propone el desarrollo de una aplicación orientada a adultos mayores autónomos que viven solos, con el objetivo de facilitar su seguimiento por parte de sus familiares. La idea surge de la necesidad de brindar tranquilidad tanto a los adultos mayores como a sus hijos o cuidadores, permitiendo una supervisión remota sin interferir en su independencia.
         </p>
+        <!-- Párrafo introductorio explicando el contexto del proyecto -->
 
+        <!-- SECCIÓN 2: PROBLEMA Y OBJETIVO -->
         <h2>Definición del problema </h2>
+        <!-- Subtítulo de la sección del problema -->
 
         <p>Muchos <strong>adultos mayores</strong> viven solos y, si bien pueden desenvolverse de manera autónoma, requieren cierto nivel de acompañamiento y supervisión. Por otro lado, los familiares suelen tener dificultades para realizar un seguimiento constante debido a sus actividades laborales y personales, lo que genera preocupación ante posibles situaciones de riesgo, como caídas, problemas de salud o emergencias. Actualmente, no siempre existen herramientas simples y accesibles que permitan realizar este seguimiento de manera efectiva, lo que plantea la necesidad de una solución tecnológica adaptada a este contexto.
         </p>
+        <!-- Párrafo describiendo el problema que se quiere resolver -->
 
         <h2>Objetivo del sistema</h2>
+        <!-- Subtítulo de la sección de objetivos -->
 
         <p>El objetivo del sistema es desarrollar una aplicación que permita realizar un <strong>seguimiento remoto de adultos mayores</strong>, facilitando la comunicación y el monitoreo de su estado por parte de sus familiares, contribuyendo a mejorar su seguridad y calidad de vida. </p>
-        <br>
+        <!-- Párrafo describiendo el objetivo principal del proyecto -->
 
+        <!-- SECCIÓN 3: RELEVAMIENTO DE INFORMACIÓN -->
         <h3>Relevamiento de información</h3>
+        <!-- Sub-subtítulo para la sección de preguntas de investigación -->
         
-        <br>
-
         <p>Para comprender mejor la problemática, se plantean las siguientes preguntas: Sobre el <strong>adulto mayor</strong>:
         </p>
+        <!-- Introducción a las preguntas sobre el adulto mayor -->
 
-        <br>
-
-        <ul> 
+        <ul>
+        <!-- Inicio de lista desordenada (bullets/puntos) -->
             <li>¿Vive solo o acompañado? </li>
             <li>¿Posee teléfono celular? </li>
             <li>¿Tiene conocimientos básicos de uso de aplicaciones? </li>
             <li>¿Presenta alguna condición de salud a considerar? </li>
         </ul>
-
-        <br>
+        <!-- Fin de lista con preguntas sobre el adulto mayor -->
 
         <h3>Sobre los familiares: </h3>
-
-        <br>
+        <!-- Sub-subtítulo para preguntas sobre los familiares -->
 
         <ul>
+        <!-- Inicio de segunda lista desordenada -->
             <li>¿Con qué frecuencia se comunican con el <strong>adulto mayor?</strong></li>
             <li>¿Qué situaciones les generan mayor preocupación?</li>
             <li>¿Desean recibir alertas ante emergencias?</li>
         </ul>
-
-        <br>
+        <!-- Fin de lista con preguntas sobre los familiares -->
 
         <h3>Sobre el uso de tecnología:</h3>
-
-        <br>
+        <!-- Sub-subtítulo para preguntas sobre tecnología -->
 
         <ul>
+        <!-- Inicio de tercera lista desordenada -->
             <li>¿Cuenta con acceso a internet? </li>
             <li>¿Utiliza aplicaciones como WhatsApp u otras similares? </li>
         </ul>
+        <!-- Fin de lista con preguntas sobre tecnología -->
 
+        <!-- SECCIÓN 4: REQUERIMIENTOS Y SOLUCIÓN -->
         <h2>Requerimientos del sistema</h2>
+        <!-- Subtítulo de requerimientos -->
 
-        <p>El sistema deberá permitir registrar usuarios (adulto mayor y familiar), enviar 
+        <p>
+            El sistema deberá permitir registrar usuarios (adulto mayor y familiar), enviar 
 notificaciones al familiar, contar con un botón de emergencia, permitir el seguimiento 
 básico del estado del adulto mayor y generar alertas ante situaciones de riesgo. 
 El sistema deberá ser fácil de usar con una interfaz simple y clara, tener buena 
 accesibilidad con letras grandes y botones visibles, ser rápido en su funcionamiento, 
 garantizar la seguridad de los datos y estar disponible en todo momento. 
+
 </p>
+        <!-- Párrafo detallando los requerimientos funcionales y no-funcionales del sistema -->
 
 <h2>Propuesta de solución </h2>
-
-<p>Se propone desarrollar una aplicación móvil llamada <strong>“Senior App”</strong>, diseñada 
+<!-- Subtítulo de la propuesta de solución -->
+<p>
+    Se propone desarrollar una aplicación móvil llamada <strong>“Senior App”</strong>, diseñada 
 específicamente para <strong>adultos mayores</strong>. La aplicación permitirá a los usuarios contar con una 
 herramienta simple para comunicarse con sus familiares y enviar alertas en caso de 
 emergencia. A su vez, los familiares podrán recibir notificaciones y realizar un seguimiento 
 básico del estado del <strong>adulto mayor</strong>. 
 El diseño de la aplicación estará orientado a la simplicidad y accesibilidad, 
 priorizando la facilidad de uso para personas con poca experiencia tecnológica. 
-</p>
 
+</p>
+<!-- Párrafo describiendo la propuesta de solución (la aplicación Senior App) -->
+
+<!-- SECCIÓN 5: CONCLUSIÓN -->
 <h2>Conclusión</h2>
+<!-- Subtítulo de conclusión -->
+
 
 <p>El desarrollo de <strong>“Senior App”</strong> representa una solución innovadora a una 
 problemática actual, combinando tecnología y bienestar social.
+
 <br>
+<!-- Salto de línea -->
+
 Este sistema busca mejorar la calidad de vida de los <strong>adultos mayores</strong>, brindándoles 
 mayor seguridad sin perder su independencia, y al mismo tiempo ofrecer tranquilidad a sus 
 familiares mediante un seguimiento remoto eficiente.
+
 </p>
+<!-- Párrafo de conclusión resumiendo los beneficios del proyecto -->
 
-<br>
+        <!-- SECCIÓN 6: REFERENCIAS Y CRÉDITOS -->
+        <h2>Teoría puesta en práctica</h2>
+        <!-- Subtítulo de la sección de referencias -->
 
-<h2>Toda la teoria puesta en practica para la elaboracion de esta pagina fue extraida de :</h2>
+        <p><strong>Classroom:</strong> DS-12-IngSoft-I-2026<br>
+        <!-- Nombre del aula virtual (br = salto de línea) -->
+        <strong>Profesor:</strong> Dante Roselli</p>
+        <!-- Nombre del profesor -->
 
-<b>
-    
-    <a href=https://classroom.google.com/u/2/c/Nzk2NDE3MzE0MTkz> Classroom DS-12-IngSoft-I-2026</b>
-Prof. Dante Roselli</a>
+        <p><a href="https://classroom.google.com/u/2/c/Nzk2NDE3MzE0MTkz" target="_blank" rel="noopener noreferrer">Acceder al Classroom</a></p>
+        <!-- Enlace (link) al aula de Classroom -->
+        <!-- target="_blank" = abre en pestaña nueva -->
+        <!-- rel="noopener noreferrer" = seguridad al abrir en pestaña nueva -->
 
-<br>
+        <p><a href="https://terciariourquiza.edu.ar/carreras" target="_blank" rel="noopener noreferrer"><img src="Imagenes/DS Logo.jpg" height="180px" width="180px" alt="Logo De Facultad Urquiza"></a></p>
+        <!-- Enlace con imagen dentro (logo de la facultad) -->
+        <!-- height="180px" width="180px" = dimensiones de la imagen -->
+        <!-- alt="..." = texto alternativo si no carga la imagen -->
 
-<a href="https://terciariourquiza.edu.ar/carreras/"><img src="Imagenes/DS Logo.jpg" height="180px" width="180px" alt="Logo De Facultad Urquiza" </a>
 
-
-        
-    </body>
+        </body>
+        <!-- FIN DEL CONTENIDO VISIBLE -->
 </html>
 
